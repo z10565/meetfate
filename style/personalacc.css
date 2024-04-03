@@ -158,10 +158,48 @@
     font-size: 16px;
     line-height: 150%;
 }
+
 .personalinfo {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.wallet h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.subbalance {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.num {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.add {
+    width: calc(2.3vw + 337px);
+    height: 70px;
+    border-radius: 500px;
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+    box-shadow: 0px 20px 30px 0px rgba(179, 34, 31, 0.33);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    cursor: pointer;
 }
