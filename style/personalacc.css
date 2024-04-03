@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.stylization {
+    background: #230E2B;
+}
+
+.dating {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #1B0522;
+}
+
+.chosecountryWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.countries select option {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+
+.worldwide {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.russia {
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+}
+
+.USA {
+    display: none;
+}
+
+.panel {
+    background: #2D1436;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Znakomstva {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Znakomstvanew p {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+    margin-left: 76px;
+}
+
+.menu button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    background: #2D1436;
+    color: #EEEEEE;
+    border: none;
+}
+
+.menu button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu button a:visited {
+    color: inherit;
+}
+
+.menu button a:hover {
+    color: inherit;
+}
+
+.menu button:visited {
+    background: #2D1436;
+}
+
+.menu button:visited a {
+    color: inherit;
+}
+
+.notify {
+    display: flex;
+    justify-content: center;
+    gap: calc(-1.4vw + 47px);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.menuWrapper {
+    display: none;
+}
+
+.male {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.male p {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.categoriesWrapper {
+    width: 280px;
+    height: 246px;
+    border-radius: 30px;
+    background: #1C0A22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.categories {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
+}
+.personalinfo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

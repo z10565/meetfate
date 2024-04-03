@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.stylization {
+    background: #230E2B;
+}
+
+
+.dating {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.chosecountryWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.countries select option {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+
+.worldwide {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.russia {
+    width: 26px;
+    height: 26px;
+    border-radius: 3px;
+}
+
+.USA {
+    display: none;
+}
+
+.new_user {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 602px;
+}
+
+.Znakomstva,
+.Znakomstvanew {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Znakomstvanew p {
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.registration {
+    cursor: pointer;
+    width: 172px;
+    height: 46px;
+    border-radius: 500px;
+    padding: 11px 36px;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+}
+
+.registration a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.registration a:visited {
+    color: inherit;
+}
+
+.registration a:hover {
+    color: inherit;
+}
+
+.registration:visited {
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+}
+
+.registration:visited a {
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: calc(1.6vw + 30px);
+    font-weight: 500;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: calc(9.6vw + 25px);
+    text-align: center;
+}
+
+.descoftheapp {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.signin {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.emailspace,
+.passwordspace {
+    width: 380px;
+    height: 70px;
+    border-radius: 500px;
+    background: #42204E;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.enter {
+    width: calc(2.3vw + 337px);
+    height: 70px;
+    border-radius: 500px;
+    padding: 23px 166px 23px 165px;
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+    box-shadow: 0px 20px 30px 0px rgba(179, 34, 31, 0.33);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.enter a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.enter a:visited {
+    color: inherit;
+}
+
+.enter a:hover {
+    color: inherit;
+}
+
+#passchange {
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #925FA4;
+}
+
+.popForm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.popForm h3 {}
+
+.popForm form {
+    background: #1C0A22;
+    width: 680px;
+    height: 352px;
+    border-radius: 50px;
+}
+
+.popForm input {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.popForm p {
+    color: #6E447B;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.close {
+    width: 30px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    background: linear-gradient(#EE0979, #FF6A00);
+}
+
+.idr {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new_pass {
+    width: calc(4.9vw + 284px);
+    height: 70px;
+    border-radius: 500px;
+    background: linear-gradient(to right, #EE0979, #FF6A00);
+    box-shadow: 0px 20px 30px 0px rgba(179, 34, 31, 0.33);
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.aboutus {
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.aboutus button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    background: #230E2B;
+    color: #EEEEEE;
+    border: none;
+}
+
+.company {
+    color: #EEEEEE;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+@media only screen and (max-width: 376px) {
+    .dating {
+        display: none;
+    }
+
+    .new_user {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+    }
+
+    .Znakomstva {
+        justify-content: center;
+    }
+
+    .Znakomstvanew {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .emailspace,
+    .passwordspace {
+        width: 345px;
+    }
+
+    .aboutus {
+        margin-top: 50px;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: space-around;
+    }
+}
