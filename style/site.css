@@ -23,7 +23,23 @@
     display: flex;
     gap: 10px;
 }
-
+#countries {
+    background: #1B0522;
+    color: #FFFFFF;
+    border: none;
+}
+#world {
+    background: #2D1436;
+    color: #FFFFFF;
+    border: none;
+}
+select option {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
 .countries select option {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;

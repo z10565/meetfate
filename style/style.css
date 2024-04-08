@@ -6,9 +6,14 @@
 .stylization {
     background: #230E2B;
 }
-
+.curve {
+    background-image: url('../style/orange.svg'), url('../style/pink.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left -10%, bottom right -15%;
+}
 
 .dating {
+    background: #1B0522;
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,6 +27,26 @@
 .chosecountryWrapper {
     display: flex;
     gap: 10px;
+}
+
+#countries {
+    background: #1B0522;
+    color: #FFFFFF;
+    border: none;
+}
+
+#countries2 {
+    background: #230E2B;
+    color: #FFFFFF;
+    border: none;
+}
+
+select option {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
 }
 
 .countries select option {
@@ -132,9 +157,12 @@ h1 {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     line-height: 150%;
-    text-align: center;
     color: #FFFFFF;
     margin-top: 10px;
+    /* max-width: 846px; */
+    margin-left: calc(33.8vw - 112px);
+    margin-right: calc(33.8vw - 112px);
+    text-align: center;
 }
 
 .signin {
@@ -145,7 +173,7 @@ h1 {
     align-items: center;
 }
 
-.emailspace,
+.emailspace, .emailspace2,
 .passwordspace {
     width: 380px;
     height: 70px;
@@ -156,8 +184,11 @@ h1 {
     font-size: 16px;
     line-height: 150%;
     text-align: center;
+    border-color: transparent;
 }
-
+.emailspace2 {
+    width: calc(4.9vw + 287px);
+}
 .enter {
     width: calc(2.3vw + 337px);
     height: 70px;
@@ -200,7 +231,7 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: calc(21.7vw + 264px);
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -294,10 +325,12 @@ h1 {
 }
 
 @media only screen and (max-width: 376px) {
+    .curve {
+        background-position: center left 410%, center right 250%;
+    }
     .dating {
         display: none;
     }
-
     .new_user {
         flex-direction: column;
         gap: 30px;
@@ -317,7 +350,10 @@ h1 {
     .passwordspace {
         width: 345px;
     }
-
+    .popForm {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     .aboutus {
         margin-top: 50px;
         flex-wrap: wrap;

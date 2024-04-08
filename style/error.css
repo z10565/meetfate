@@ -6,7 +6,9 @@
 .stylization {
     background: #230E2B;
 }
-
+.flip {
+    transform: rotate(180deg);
+}
 .dating {
     position: fixed;
     top: 0;
@@ -18,7 +20,23 @@
     gap: 20px;
     background: #1B0522;
 }
-
+#countries {
+    background: #1B0522;
+    color: #FFFFFF;
+    border: none;
+}
+#world {
+    background: #2D1436;
+    color: #FFFFFF;
+    border: none;
+}
+select option {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
 .chosecountryWrapper {
     display: flex;
     gap: 10px;
@@ -213,6 +231,9 @@
 }
 
 @media only screen and (max-width: 376px) {
+    .menuWrapper {
+        display: block;
+    }
     .error {
         font-size: 150px;
     }

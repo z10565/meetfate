@@ -6,8 +6,32 @@
 .stylization {
     background: #230E2B;
 }
+.curve {
+    background-image: url('../style/curve1.svg'), url('../style/curve2.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left -15%, bottom right -10%;
+}
+#countries {
+    background: #1B0522;
+    color: #FFFFFF;
+    border: none;
+}
 
+#countries2 {
+    background: #230E2B;
+    color: #FFFFFF;
+    border: none;
+}
+
+select option {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
 .dating {
+    background: #1B0522;
     position: fixed;
     top: 0;
     width: 100%;
@@ -170,9 +194,12 @@
     font-size: 16px;
     line-height: 150%;
     text-align: center;
+    border-color: transparent;
 }
 
 .numbers {
+    display: flex;
+    gap: 5px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -194,6 +221,7 @@
     font-size: 16px;
     line-height: 150%;
     color: #8B5D9A;
+    border-color: transparent;
 }
 
 #month {
@@ -206,6 +234,7 @@
     font-size: 16px;
     line-height: 150%;
     text-align: center;
+    border-color: transparent;
 }
 
 .new_acc p {
@@ -242,12 +271,16 @@
     .dating {
         display: none;
     }
-
+    .curve {
+        background-position: center left 1290%, top -90% right 500%;
+    }
     .new_user {
         flex-direction: column;
         gap: 30px;
     }
-
+    .Znakomstva {
+        justify-content: center;
+    }
     .Znakomstvanew {
         flex-direction: column;
         gap: 10px;
@@ -257,6 +290,10 @@
     .passwordspace,
     .namespace {
         width: 345px;
+    }
+    .numbers {
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .aboutus {
         margin-top: 73px;
